@@ -7,6 +7,6 @@ pt::Timer t1; // start timer
 double resultTime = t1.endTimer(PT_MILISEC); // end timer
 ```
 
-The #defines below specify the units of the return value of Timer::endTimer.
+The #defines in the header file change specify units to be returned for Timer::endTimer().
 
 Thats all there is to the library. 
