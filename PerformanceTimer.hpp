@@ -33,7 +33,7 @@ namespace pt {
     Timer() {
       start = std::chrono::high_resolution_clock::now(); 
     }
-    /// @brief Ends the timer and returns the difference in time since the start. 
+    /// @brief Ends the timer and returns the time since the start marked by the constructor. 
     /// @param units Units of the return value. Specified with the following macros: PT_NANOSEC, PT_MICROSEC, PT_MILISEC,
     /// PT_SEC, PT_MIN, PT_HOUR, and PT_DAY.
     /// @return Returns the time in the units specified.
